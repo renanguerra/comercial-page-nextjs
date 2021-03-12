@@ -410,7 +410,7 @@ export default function home(){
     useEffect(() => {
         handleScroll()
         window.addEventListener('scroll', handleScroll);
-    },[]);
+    });
 
     return(
         <Main>
